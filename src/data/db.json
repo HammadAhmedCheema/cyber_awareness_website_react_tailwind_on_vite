@@ -1,0 +1,105 @@
+{
+  "home": {
+    "hero": {
+      "title": "Stay Safe in the Digital World",
+      "subtitle": "Learn essential cybersecurity practices to protect yourself and your organization from online threats."
+    },
+    "quickTips": [
+      {
+        "icon": "🔒",
+        "title": "Use Strong Passwords",
+        "text": "Create unique, complex passwords for each account. Consider using a password manager."
+      },
+      {
+        "icon": "📱",
+        "title": "Enable Two-Factor Authentication",
+        "text": "Add an extra layer of security to your accounts with 2FA verification."
+      },
+      {
+        "icon": "⚠️",
+        "title": "Be Wary of Phishing",
+        "text": "Don't click suspicious links or download attachments from unknown sources."
+      }
+    ]
+  },
+  "threats": {
+    "hero": {
+      "title": "Common Cybersecurity Threats",
+      "subtitle": "Learn to recognize and protect yourself from the most prevalent digital threats."
+    },
+    "threatList": [
+      {
+        "icon": "!",
+        "title": "Phishing Attacks",
+        "description": "Phishing is a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity. Attackers typically use fake emails, websites, or messages that appear legitimate to trick victims into revealing passwords, credit card numbers, or other personal data. Always verify sender authenticity and look for suspicious URLs or grammar errors."
+      },
+      {
+        "icon": "!",
+        "title": "Malware",
+        "description": "Malware is malicious software designed to damage or gain unauthorized access to computer systems. This includes viruses, worms, trojans, spyware, and adware. Malware can steal personal information, corrupt files, or provide unauthorized access to your device. Keep your antivirus software updated and avoid downloading suspicious files or clicking unknown links."
+      },
+      {
+        "icon": "!",
+        "title": "Ransomware",
+        "description": "Ransomware is a type of malware that encrypts your files and demands payment for the decryption key. Once infected, victims lose access to their data until they pay the ransom, though payment doesn't guarantee file recovery. Protect yourself by regularly backing up important files, keeping software updated, and being cautious with email attachments and downloads."
+      }
+    ]
+  },
+  "practices": {
+    "hero": {
+      "title": "Essential Security Practices",
+      "subtitle": "Implement these fundamental practices to strengthen your digital security posture."
+    },
+    "practiceList": [
+      {
+        "icon": "🔐",
+        "title": "Strong Passwords",
+        "description": "Create passwords that are at least 12 characters long and include a mix of uppercase letters, lowercase letters, numbers, and special characters. Use unique passwords for each account and consider using a reputable password manager to generate and store complex passwords securely. Avoid using personal information, common words, or predictable patterns."
+      },
+      {
+        "icon": "📲",
+        "title": "Two-Factor Authentication (2FA)",
+        "description": "Enable two-factor authentication on all important accounts, especially email, banking, and social media. 2FA adds an extra layer of security by requiring a second form of verification beyond your password. Use authenticator apps like Google Authenticator or Authy rather than SMS when possible, as they're more secure against SIM swapping attacks."
+      },
+      {
+        "icon": "🔄",
+        "title": "Regular Software Updates",
+        "description": "Keep your operating system, applications, and security software up to date. Enable automatic updates when available to ensure you receive critical security patches promptly. This includes web browsers, plugins, and mobile apps. Regular updates fix security vulnerabilities that cybercriminals could exploit to gain unauthorized access to your devices and data."
+      }
+    ]
+  },
+  "resources": {
+    "hero": {
+      "title": "Cybersecurity Resources",
+      "subtitle": "Download helpful guides and tools to enhance your digital security knowledge."
+    },
+    "downloadable": [
+      {
+        "title": "Password Security Checklist",
+        "description": "A comprehensive checklist to help you create and maintain strong, secure passwords. Includes tips for password managers and security questions."
+      },
+      {
+        "title": "Phishing Red Flags Guide",
+        "description": "Learn to identify suspicious emails, messages, and websites. This visual guide shows common phishing tactics and how to spot them before falling victim."
+      },
+      {
+        "title": "Home Network Security Setup",
+        "description": "Step-by-step instructions for securing your home Wi-Fi network, router configuration, and protecting connected devices from unauthorized access."
+      }
+    ],
+    "additional": [
+       {
+        "title": "Security Training Videos",
+        "text": "Access our library of cybersecurity awareness training videos covering various topics from basic security to advanced threat detection."
+      },
+      {
+        "title": "Security Assessment Tools",
+        "text": "Use our online tools to assess your current security posture and identify areas that need improvement."
+      },
+      {
+        "title": "Incident Response Templates",
+        "text": "Download templates and checklists for responding to various cybersecurity incidents and data breaches."
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global theme variables. Toggle dark mode by adding/removing the `dark` class on <html>. */
+:root {
+    --bg-color: #f8fafc;
+    --text-color: #1e293b;
+}
+
+html.dark {
+    --bg-color: #0f172a;
+    --text-color: #f1f5f9;
+}
+
+/* Apply variables to the body so the site updates immediately when `html.dark` changes */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
