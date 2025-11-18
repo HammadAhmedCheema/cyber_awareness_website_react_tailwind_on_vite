@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import data from '../data/db.json';
+import quishing from '../assets/quishing.mp4';
 
 const ResourcesPage = () => {
     const { hero, downloadable, additional } = data.resources;
@@ -24,14 +25,23 @@ const ResourcesPage = () => {
                         ))}
                     </div>
 
-                    <div className="mb-16">
-                        <h3 className="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-white">Training Video</h3>
-                        <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg">
-                           <p className="text-center text-gray-600 dark:text-gray-300">Video player would go here</p>
+                        <div className="mb-16">
+                            <h3 className="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-white">Training Video</h3>
+                            <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg">
+                                <video 
+                                    controls 
+                                    className="w-full rounded-lg shadow-md"
+                                    preload="metadata"
+                                >
+                                    <source src={quishing} type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p className="text-center text-gray-500 dark:text-gray-400 mt-2 text-sm">
+                                    Click the play button to start the training video
+                                </p>
+                            </div>
                         </div>
-                    </div>
-
-                    <div>
+                                            <div>
                         <h3 className="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-white">Additional Online Resources</h3>
                          <div className="grid md:grid-cols-3 gap-8">
                             {additional.map((item, index) => (
